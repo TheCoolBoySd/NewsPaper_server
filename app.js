@@ -70,7 +70,7 @@ app.post("/", function(req, res) {
 
 
 
-    app.listen(3000, function() {
+    app.listen(process.env.PORT || 3000, function() {
       console.log("We are on port 3000");
     })
     // 40385928966a596b915d9f4d7bf63e56-us21 Api id
